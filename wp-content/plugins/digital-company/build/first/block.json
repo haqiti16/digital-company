@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/digital-company",
+  "version": "0.1.0",
+  "title": "Digital Company",
+  "category": "common",
+  "icon": "align-full-width",
+  "description": "Tes Block tool.",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#333"
+    },
+    "description": {
+      "type": "string"
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#333"
+    },
+    "text": {
+      "type": "string",
+      "selector": "h2"
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "src",
+      "selector": "img"
+    },
+    "alt": {
+      "type": "string",
+      "source": "attribute",
+      "attribute": "alt",
+      "selector": "img"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "toggle": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "textdomain": "digital-company",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

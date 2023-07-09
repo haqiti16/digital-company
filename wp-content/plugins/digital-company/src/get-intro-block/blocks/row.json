@@ -1,0 +1,12 @@
+{
+	"name": "create-block/get-intro-block-row",
+	"title": "Get Row",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Add row",
+	"parent": ["create-block/get-intro-block"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "get-intro-block"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"first/view.js","mappings":";;;;;AAAAA,OAAO,CAACC,GAAG,CAAC,WAAW,CAAC,C","sources":["webpack://digital-company/./src/first/view.js"],"sourcesContent":["console.log(\"testing!!\");\n"],"names":["console","log"],"sourceRoot":""}

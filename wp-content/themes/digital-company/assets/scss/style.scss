@@ -1,0 +1,20 @@
+@import "01-settings/file-header.scss";
+// import custom bootstrap
+@import "bootstrap-custom/custom";
+// IMPORT COMPONENTS
+@import "components/animation";
+@import "components/buttons";
+@import "components/mixins";
+@import "components/typography";
+
+// IMPORT SECTIONS
+@import "sections/contact-form";
+@import "sections/features";
+@import "sections/footer";
+@import "sections/get-started";
+@import "sections/intro-section";
+@import "sections/intro-help";
+@import "sections/navbar";
+@import "sections/service-uptime";
+@import "sections/services";
+

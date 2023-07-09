@@ -1,0 +1,40 @@
+{
+  "name": "digital-company-haqi",
+  "version": "1.0.0",
+  "description": "simple theme digital company",
+  "main": "index.js",
+  "scripts": {
+    "build:styleblocks": "sass assets/scss/digital-blocks/style-cta.scss:assets/css/blocks/style-cta.css --style=expanded --source-map",
+    "build:style": "sass assets/scss/style.scss:style.css --style=expanded --source-map",
+    "build:fontawesom": "sass assets/scss/fontawesome.scss:assets/css/fontawesome.css --style=expanded --source-map",
+    "build:style-editor": "sass assets/scss/style-editor.scss:assets/css/style-editor.css --style=expanded --source-map",
+    "build:scripts": "wp-scripts build",
+    "start-build": "wp-scripts start",
+    "build": "run-p \"build:*\"",
+    "watch": "chokidar \"**/*.scss\" \"src/*.js\" -c \"npm run build\" --initial"
+  },
+  "keywords": [
+    "theme",
+    "wordpress",
+    "js",
+    "digital",
+    "company",
+    "haqi"
+  ],
+  "author": "haqi",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "5.20.0",
+    "@wordpress/scripts": "26.8.0",
+    "chokidar-cli": "^3.0.0",
+    "eslint": "^8.44.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss-cli": "^10.1.0"
+  }
+}
